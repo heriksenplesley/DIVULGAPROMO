@@ -1,0 +1,911 @@
+ATUE COMO UMA EQUIPE SÊNIOR MULTIDISCIPLINAR FORMADA POR:
+
+- Arquiteto de software SaaS.
+- Engenheiro de Inteligência Artificial e agentes autônomos.
+- Desenvolvedor full-stack web e mobile.
+- Especialista em marketing de afiliados e comércio eletrônico.
+- Especialista em automação de campanhas e mensageria.
+- Designer UX/UI de produtos digitais premium.
+- Especialista em segurança, LGPD, pagamentos recorrentes e escalabilidade.
+- Especialista em analytics, SEO, growth marketing e monetização.
+
+OBJETIVO PRINCIPAL
+
+Desenvolver uma plataforma SaaS completa chamada DIVULGAPROMO, inspirada na categoria de soluções de automação de divulgação para afiliados, tendo o Divulga Ninja como referência funcional, mas com identidade visual, arquitetura, código, experiência e diferenciais próprios.
+
+O DivulgaPromo deve combinar:
+1. Um aplicativo responsivo para computador, tablet e celular.
+2. Um agente de IA inteligente para marketing e divulgação.
+3. Um sistema de descoberta e gerenciamento de ofertas.
+4. Um gerador automático de anúncios e artes promocionais.
+5. Um gerenciador de links de afiliados.
+6. Um agendador e distribuidor de campanhas.
+7. Uma vitrine pública de promoções de cada usuário.
+8. Um painel de métricas e resultados.
+9. Um sistema de assinaturas, comissões e indicações.
+10. Um painel administrativo completo para o proprietário da plataforma.
+
+IMPORTANTE: NÃO ENTREGUE SOMENTE UMA LANDING PAGE, UM PROTÓTIPO VISUAL OU UM DASHBOARD COM DADOS FALSOS. CONSTRUA UMA APLICAÇÃO FUNCIONAL, COM BANCO DE DADOS, AUTENTICAÇÃO, REGRAS DE NEGÓCIO, INTEGRAÇÕES, PROCESSAMENTO DE TAREFAS E TRATAMENTO DE ERROS.
+
+==================================================
+1. MARCA E IDENTIDADE VISUAL
+==================================================
+
+Nome: DivulgaPromo.
+
+Slogan: Sua inteligência de ofertas. Sua máquina de divulgação.
+
+Posicionamento: plataforma inteligente de marketing de afiliados, automação comercial e monetização digital.
+
+Identidade visual:
+- Azul-marinho como cor institucional.
+- Azul elétrico para tecnologia e ações principais.
+- Roxo para recursos de inteligência artificial.
+- Verde para indicadores positivos e resultados.
+- Fundo claro, com opção de modo escuro.
+- Interface moderna, premium, responsiva e intuitiva.
+- Cards com hierarquia visual clara, gráficos objetivos e navegação simples.
+- Logotipo original que combine tecnologia, megafone, promoção e inteligência artificial.
+- Não copiar logotipo, textos, código, identidade visual ou elementos proprietários de concorrentes.
+
+Criar uma experiência de alto nível, com carregamento rápido, acessibilidade, excelente uso em telas pequenas e navegação adequada para usuários iniciantes.
+
+Idioma principal: português brasileiro.
+Moeda: real brasileiro (BRL).
+Fuso horário padrão: America/Campo_Grande, configurável pelo usuário.
+
+==================================================
+2. PERFIS DE USUÁRIO E PERMISSÕES
+==================================================
+
+Implementar os seguintes perfis:
+
+A. SUPERADMIN
+- Controle integral da plataforma.
+- Gestão de usuários, assinaturas, planos e pagamentos.
+- Gestão de integrações, provedores de IA e limites de uso.
+- Gestão de ofertas, categorias e campanhas.
+- Visualização de indicadores financeiros e operacionais.
+- Gestão de comissões, afiliados e indicações.
+- Configuração de regras, segurança, auditoria e suporte.
+- Suspensão de contas conforme regras transparentes.
+- Controle de custos de infraestrutura e consumo de IA.
+
+B. AFILIADO
+- Cadastro e configuração de seus programas de afiliados.
+- Criação, importação e gerenciamento de ofertas.
+- Geração de anúncios e artes com IA.
+- Gestão de campanhas e canais conectados.
+- Controle de cliques e conversões disponíveis.
+- Criação de sua própria vitrine pública.
+- Relatórios, metas e recomendações de crescimento.
+- Gestão de assinatura e indicações.
+
+C. LOJISTA OU ANUNCIANTE
+- Cadastro de produtos próprios.
+- Criação de campanhas comerciais.
+- Gestão de cupons e ofertas.
+- Contratação de divulgação patrocinada.
+- Relatórios de alcance e cliques.
+- Aprovação das campanhas e materiais publicitários.
+
+D. CRIADOR DE CONTEÚDO
+- Criação de campanhas para diferentes redes.
+- Calendário editorial.
+- Biblioteca de artes e textos.
+- Organização de múltiplas marcas e perfis.
+- Métricas e links rastreáveis.
+
+E. ADMINISTRADOR DE EQUIPE
+- Permissões por colaborador.
+- Aprovação de publicações.
+- Histórico de alterações.
+- Distribuição de tarefas.
+
+Aplicar controle de acesso por função e por proprietário dos dados. Nenhum usuário poderá visualizar, editar ou acessar dados privados de outro usuário sem autorização expressa.
+
+==================================================
+3. AGENTE CENTRAL DE INTELIGÊNCIA ARTIFICIAL
+==================================================
+
+Criar um agente chamado PROMO IA, o cérebro operacional do DivulgaPromo.
+
+O agente deverá atuar como um assistente comercial, analista de oportunidades, redator publicitário, designer assistido por IA e planejador de campanhas.
+
+A interface deve permitir conversar naturalmente com o agente.
+
+Exemplos de comandos:
+- "Encontre as melhores oportunidades de ofertas para hoje."
+- "Crie dez anúncios para meu grupo de ofertas."
+- "Gere uma campanha de produtos para casa com descontos reais."
+- "Transforme este link em uma publicação pronta para divulgar."
+- "Crie uma arte quadrada para Instagram e outra para Status."
+- "Quais campanhas tiveram melhor desempenho nesta semana?"
+- "Identifique links quebrados e ofertas desatualizadas."
+- "Monte um calendário de publicações para os próximos sete dias."
+- "Compare minhas campanhas e recomende melhorias."
+- "Prepare uma campanha para Black Friday."
+- "Crie uma descrição curta, uma versão persuasiva e outra para Stories."
+- "Encontre produtos com boa relação entre desconto, preço e potencial comercial."
+
+CAPACIDADES DO PROMO IA
+
+1. Interpretar a solicitação do usuário.
+2. Consultar ferramentas autorizadas e dados reais disponíveis.
+3. Identificar produtos e ofertas compatíveis com o nicho escolhido.
+4. Consultar preços, disponibilidade, cupons e condições quando houver fontes confiáveis.
+5. Criar textos comerciais sem inventar especificações.
+6. Preservar corretamente os links de afiliado.
+7. Gerar briefings e artes promocionais.
+8. Recomendar categorias, horários e canais com base nos dados históricos.
+9. Detectar ofertas expiradas, duplicadas ou suspeitas.
+10. Produzir relatórios e explicar seus resultados.
+11. Registrar tarefas, status, erros e consumo de recursos.
+12. Solicitar aprovação antes de ações externas irreversíveis ou publicações que exijam autorização.
+
+MEMÓRIA E PERSONALIZAÇÃO
+
+O agente poderá aprender as preferências comerciais de cada usuário:
+- Nichos favoritos.
+- Público-alvo.
+- Tom de comunicação.
+- Identidade visual.
+- Categorias de produtos.
+- Frequência desejada.
+- Canais autorizados.
+- Histórico de campanhas e resultados.
+
+Separar os dados e a memória de cada conta. Permitir editar ou apagar as preferências armazenadas.
+
+ARQUITETURA DO AGENTE
+
+Implementar um agente baseado em ferramentas, com fluxo controlado e auditável.
+
+Ferramentas internas:
+- buscar_ofertas()
+- importar_produto()
+- consultar_preco()
+- validar_link()
+- converter_link_afiliado()
+- gerar_anuncio()
+- gerar_arte()
+- calcular_desconto()
+- calcular_comissao_estimada()
+- agendar_campanha()
+- publicar_campanha()
+- consultar_metricas()
+- gerar_relatorio()
+- recomendar_estrategia()
+
+Cada ferramenta deve possuir validação de entrada, autorização, registro de execução, tratamento de falhas e limites de uso.
+
+Não permitir que a IA invente dados, comissões, vendas, preços ou disponibilidade. Na ausência de informação, indicar claramente que o dado não foi verificado.
+
+==================================================
+4. CENTRAL INTELIGENTE DE OFERTAS
+==================================================
+
+Criar uma tela com catálogo pesquisável de produtos e promoções.
+
+Filtros:
+- Categoria.
+- Marketplace.
+- Faixa de preço.
+- Desconto.
+- Cupom.
+- Frete.
+- Avaliação, quando disponível.
+- Nicho de público.
+- Data da última verificação.
+- Potencial comercial estimado.
+- Disponibilidade da afiliação.
+- Tipo de produto.
+
+Categorias iniciais:
+- Eletrônicos.
+- Celulares e acessórios.
+- Informática.
+- Casa e decoração.
+- Eletrodomésticos.
+- Moda e beleza.
+- Esporte e lazer.
+- Ferramentas.
+- Brinquedos.
+- Produtos para pets.
+- Mercado e utilidades.
+- Cursos e produtos digitais.
+
+Permitir cadastrar fontes autorizadas e integrar programas de afiliados, inicialmente considerando:
+- Shopee.
+- Mercado Livre.
+- Amazon.
+- AliExpress.
+- Magazine Luiza.
+- Hotmart.
+- Outros programas compatíveis.
+
+A integração de cada marketplace deverá ser implementada individualmente, respeitando APIs, credenciais, requisitos de aprovação, limites e termos vigentes.
+
+Não presumir que uma integração esteja funcionando antes de testá-la.
+
+Quando não houver API ou fonte autorizada, permitir importação manual ou por arquivo, sem contornar controles de acesso.
+
+RECURSOS INTELIGENTES
+
+- Identificar ofertas com melhor relação entre desconto, relevância e preço.
+- Detectar anúncios duplicados.
+- Alertar sobre alterações de preço.
+- Identificar possíveis discrepâncias de preços.
+- Sinalizar promoções vencidas.
+- Comparar produtos equivalentes.
+- Recomendar produtos de acordo com o nicho.
+- Criar listas personalizadas de ofertas.
+- Salvar favoritos.
+- Permitir aprovação manual antes da divulgação.
+
+Classificar o potencial comercial como uma estimativa explicável, baseada em critérios configuráveis, e não como garantia de venda.
+
+==================================================
+5. CONVERSOR E GERENCIADOR DE LINKS DE AFILIADOS
+==================================================
+
+Criar uma ferramenta para receber um link de produto e produzir um anúncio pronto para divulgação.
+
+Fluxo:
+1. O usuário cola o link.
+2. O sistema identifica o domínio e a fonte compatível.
+3. Busca os dados disponíveis do produto.
+4. Solicita ou utiliza a identificação de afiliado autorizada.
+5. Gera o link rastreável conforme as regras do programa.
+6. Preserva os parâmetros necessários para atribuição.
+7. Verifica a validade técnica do link quando possível.
+8. Permite gerar anúncio, arte e campanha.
+
+IMPORTANTE:
+- Não converter automaticamente links de qualquer loja sem integração compatível.
+- Não substituir links por IDs de terceiros.
+- Não remover parâmetros de rastreamento necessários.
+- Não garantir que cliques serão atribuídos se o programa não fornecer essa confirmação.
+- Não simular vendas ou comissões.
+- Registrar a origem e a campanha de cada link.
+- Proteger os identificadores e credenciais de afiliados.
+
+Criar links curtos próprios somente quando a implementação for permitida e transparente. Exibir a origem do destino e proteger o sistema contra URLs maliciosas, redirecionamentos abusivos e ataques SSRF.
+
+==================================================
+6. GERADOR AUTOMÁTICO DE ANÚNCIOS
+==================================================
+
+Criar um gerador que transforme um produto em uma campanha promocional completa.
+
+ENTRADAS:
+- Link do produto.
+- Nome e descrição.
+- Preço original, se confirmado.
+- Preço promocional, se confirmado.
+- Cupom e condições.
+- Link de afiliado.
+- Imagem autorizada.
+- Público-alvo.
+- Tom da campanha.
+- Canal de divulgação.
+
+SAÍDAS:
+- Título chamativo.
+- Descrição curta.
+- Descrição detalhada.
+- Benefícios reais do produto.
+- Preço e desconto calculados com base em dados confirmados.
+- Chamada para ação.
+- Aviso de condições da oferta.
+- Identificação de publicidade de afiliado, quando aplicável.
+- Link correto.
+- Hashtags relevantes.
+- Versões específicas para diferentes canais.
+
+Criar modelos de texto:
+- Oferta relâmpago.
+- Achadinho do dia.
+- Melhor custo-benefício.
+- Presente ideal.
+- Oferta para casa.
+- Oferta para tecnologia.
+- Cupom especial.
+- Últimas unidades, apenas quando comprovado.
+- Oferta patrocinada.
+- Campanha sazonal.
+
+Permitir editar, regenerar, comparar versões, salvar como modelo e aprovar antes de publicar.
+
+==================================================
+7. ESTÚDIO DE ARTES PROMOCIONAIS COM IA
+==================================================
+
+Criar um estúdio visual com templates profissionais e integração com provedores de geração de imagem.
+
+Formatos:
+- Feed quadrado: 1080 x 1080.
+- Instagram vertical: 1080 x 1350.
+- Stories e Status: 1080 x 1920.
+- Banner horizontal.
+- Card para catálogo.
+- Miniatura para vitrine.
+- Arte para campanha patrocinada.
+
+Funcionalidades:
+- Upload de logotipo próprio.
+- Paleta de cores configurável.
+- Modelos por categoria.
+- Recorte e ajuste de imagem.
+- Camadas editáveis.
+- Inserção de preço, cupom e chamada para ação.
+- QR Code para link autorizado.
+- Pré-visualização para celular.
+- Exportação em PNG e JPEG.
+- Biblioteca de artes.
+- Duplicação e edição de campanhas.
+- Identidade visual própria em cada conta.
+
+Garantir legibilidade, contraste e qualidade. Usar imagens oficiais autorizadas ou imagens geradas, respeitando direitos autorais e políticas dos marketplaces.
+
+Não alterar artificialmente a aparência do produto nem inserir marcas, selos ou avaliações falsas.
+
+==================================================
+8. PUBLICAÇÃO, AGENDAMENTO E AUTOMAÇÃO
+==================================================
+
+Criar uma central de distribuição de campanhas.
+
+Canais prioritários:
+- WhatsApp.
+- Telegram.
+- Instagram, por integrações oficiais disponíveis.
+- Facebook, por integrações oficiais disponíveis.
+- Site público de ofertas.
+- Links para compartilhamento manual.
+- E-mail marketing, mediante consentimento.
+
+RECURSOS:
+- Calendário de publicações.
+- Agendamento por data e horário.
+- Fila de campanhas.
+- Publicação individual ou em múltiplos destinos autorizados.
+- Histórico de envio.
+- Repetição programada.
+- Limites de frequência.
+- Pausa automática de campanhas.
+- Notificações de falha.
+- Aprovação prévia.
+- Relatório por canal.
+- Regras de distribuição por categoria.
+
+O sistema deverá operar com filas de tarefas, tentativas controladas, idempotência e monitoramento.
+
+WHATSAPP:
+Priorizar a WhatsApp Business Platform e provedores oficiais compatíveis. Verificar quais modalidades de mensagem, templates, destinatários e regras de consentimento são permitidos para cada integração.
+
+Não presumir que a API oficial permite publicar livremente em grupos comuns. Se o recurso não for oficialmente suportado, oferecer alternativas como envio autorizado para contatos compatíveis, canais permitidos, links de compartilhamento ou publicação manual assistida.
+
+TELEGRAM:
+Utilizar bots e APIs oficiais, respeitando permissões de administradores, acesso aos canais, limites e consentimento.
+
+INSTAGRAM E FACEBOOK:
+Utilizar APIs oficiais compatíveis com contas, permissões e tipos de publicação suportados.
+
+Não utilizar automação que burle CAPTCHAs, limites, autenticação ou controles antispam.
+
+Criar um modo seguro:
+- Rascunho.
+- Aprovação.
+- Agendamento.
+- Publicação.
+- Confirmação do resultado.
+- Registro de auditoria.
+
+==================================================
+9. VITRINE PRÓPRIA DE PROMOÇÕES
+==================================================
+
+Cada usuário deverá poder criar sua própria página pública de ofertas.
+
+Exemplo de estrutura:
+divulgapromo.com.br/ofertas/nome-do-usuario
+
+Recursos:
+- Nome e descrição da vitrine.
+- Logotipo e banner.
+- Cores personalizadas.
+- Catálogo de produtos.
+- Categorias.
+- Cupons.
+- Ofertas em destaque.
+- Pesquisa de produtos.
+- Botões para acessar as ofertas.
+- Links de afiliados rastreáveis.
+- Botão para entrar em canal ou grupo autorizado.
+- QR Code.
+- Compartilhamento social.
+- SEO.
+- Layout responsivo.
+- Estatísticas de acesso.
+- Aviso de que os preços podem mudar.
+- Identificação de links comerciais ou afiliados.
+
+Permitir domínios personalizados conforme o plano e a configuração técnica.
+
+Criar também uma página pública central do DivulgaPromo para agregar ofertas verificadas, quando houver autorização e critérios de qualidade.
+
+==================================================
+10. MOTOR DE RECOMENDAÇÃO E HORÁRIOS INTELIGENTES
+==================================================
+
+O Promo IA deverá analisar:
+- Cliques por horário.
+- Conversões confirmadas.
+- Receita ou comissão confirmada.
+- Categoria.
+- Canal.
+- Frequência.
+- Engajamento disponível.
+- Histórico de campanhas.
+- Atualidade do preço.
+- Preferências do público.
+
+A partir desses dados, sugerir:
+- Melhores horários estimados.
+- Categorias mais relevantes.
+- Frequência recomendada.
+- Produtos que merecem destaque.
+- Campanhas que devem ser pausadas.
+- Variações de título e chamada para ação.
+
+Começar com regras configuráveis e evoluir para modelos estatísticos quando existir volume de dados suficiente.
+
+Não prometer horários ideais universais nem vendas garantidas. Apresentar o nível de confiança e explicar as recomendações.
+
+==================================================
+11. DASHBOARD E ANALYTICS
+==================================================
+
+Criar painel de acompanhamento com:
+
+- Total de ofertas cadastradas.
+- Campanhas criadas.
+- Publicações concluídas.
+- Publicações com falha.
+- Cliques.
+- Cliques únicos, quando mensuráveis.
+- Conversões confirmadas.
+- Receita atribuída, quando disponibilizada pela fonte.
+- Comissões aprovadas.
+- Comissões pendentes.
+- Taxa de conversão.
+- Desempenho por canal.
+- Desempenho por categoria.
+- Desempenho por campanha.
+- Evolução diária, semanal e mensal.
+- Custo de aquisição, quando aplicável.
+- Retorno sobre investimento, quando os custos estiverem disponíveis.
+
+Criar filtros por período, marketplace, campanha, usuário e canal.
+
+Diferenciar claramente:
+- Clique registrado pelo DivulgaPromo.
+- Conversão reportada pela rede de afiliados.
+- Comissão pendente.
+- Comissão aprovada.
+- Comissão efetivamente paga.
+
+Não apresentar cliques como vendas nem comissões estimadas como dinheiro recebido.
+
+==================================================
+12. SISTEMA DE GERAÇÃO DE RENDA
+==================================================
+
+O DivulgaPromo deverá ter múltiplas fontes de receita para seu proprietário, sem depender exclusivamente das comissões de afiliados.
+
+MODELO A — ASSINATURAS SaaS
+
+Criar planos configuráveis pelo administrador. Usar os valores abaixo apenas como hipótese inicial para testes de mercado.
+
+PLANO GRATUITO:
+- Cadastro de usuário.
+- Ferramentas básicas.
+- Limite mensal de gerações por IA.
+- Quantidade limitada de ofertas.
+- Geração de anúncios.
+- Compartilhamento manual.
+- Vitrine básica.
+- Sem automações avançadas.
+
+PLANO START:
+- Mais gerações de anúncios.
+- Biblioteca de templates.
+- Links rastreáveis.
+- Agendamento básico.
+- Relatórios essenciais.
+
+PLANO PRO:
+- Maior capacidade de IA.
+- Mais campanhas e destinos autorizados.
+- Vitrine personalizada.
+- Relatórios avançados.
+- Automação de campanhas.
+- Recomendações inteligentes.
+
+PLANO BUSINESS:
+- Gestão de múltiplas marcas.
+- Equipes e permissões.
+- Domínio personalizado.
+- Relatórios profissionais.
+- Maior capacidade operacional.
+- Recursos de marca própria, quando aplicáveis.
+
+Os limites, valores, custos e benefícios deverão ser configuráveis pelo painel administrativo. Não ativar funcionalidades indisponíveis apenas para aparentar que o plano está completo.
+
+MODELO B — PROGRAMA DE INDICAÇÃO
+
+Criar um programa de indicação para assinaturas do próprio DivulgaPromo.
+
+- Link individual de indicação.
+- Código de referência.
+- Rastreamento de cadastros.
+- Identificação de assinaturas elegíveis.
+- Regras de comissão.
+- Período de atribuição configurável.
+- Extrato de comissões.
+- Regras contra fraude e autorreferência.
+- Cancelamentos e estornos.
+- Histórico de pagamentos.
+- Solicitação de saque, se implementada.
+- Integração de pagamentos autorizada.
+
+Calcular comissões sobre receitas elegíveis efetivamente recebidas, de acordo com as regras divulgadas.
+
+Não permitir esquemas de remuneração baseados apenas no recrutamento de participantes. A recompensa deve estar vinculada a vendas ou assinaturas reais e a um modelo comercial legítimo.
+
+MODELO C — COMISSÕES DE AFILIADOS
+
+Permitir que cada usuário utilize seus próprios links de afiliado.
+
+Separar as receitas geradas pelo proprietário do DivulgaPromo das receitas de cada usuário.
+
+MODELO D — PUBLICIDADE E DESTAQUES
+
+Oferecer campanhas patrocinadas, posições destacadas na vitrine e espaços publicitários claramente identificados.
+
+MODELO E — SERVIÇOS PREMIUM
+
+Oferecer créditos adicionais de IA, pacotes de artes, relatórios e recursos profissionais, com preços e limites transparentes.
+
+Criar uma calculadora de rentabilidade da plataforma, incluindo:
+- Receita recorrente mensal.
+- Assinantes ativos.
+- Ticket médio.
+- Taxa de cancelamento.
+- Custo de IA por usuário.
+- Infraestrutura.
+- Taxas de pagamento.
+- Suporte.
+- Impostos e despesas.
+- Margem de contribuição.
+
+Diferenciar faturamento, lucro estimado, valores a receber e caixa efetivamente recebido.
+
+==================================================
+13. PAGAMENTOS E ASSINATURAS
+==================================================
+
+Implementar arquitetura de cobrança recorrente com integração a um provedor compatível, como Mercado Pago, Stripe ou outro disponível para o modelo de negócio.
+
+Recursos:
+- Checkout.
+- Assinaturas mensais e anuais.
+- Cupons promocionais.
+- Período de teste configurável.
+- Webhooks autenticados.
+- Renovação.
+- Cancelamento.
+- Reembolso.
+- Histórico financeiro.
+- Notificações de pagamento.
+- Atualização automática do plano.
+- Tratamento de inadimplência.
+- Recibos e registros de transação.
+
+Não armazenar dados completos de cartões. Utilizar páginas ou componentes de pagamento seguros do provedor.
+
+Não marcar uma assinatura como paga apenas porque o usuário retornou do checkout. Confirmar a transação por evento validado ou consulta autenticada ao provedor.
+
+==================================================
+14. PAINEL ADMINISTRATIVO COMPLETO
+==================================================
+
+Criar área exclusiva do proprietário com:
+
+- Dashboard geral.
+- Usuários ativos e novos cadastros.
+- Assinaturas por plano.
+- Receita recorrente.
+- Pagamentos pendentes.
+- Cancelamentos.
+- Comissões.
+- Indicações.
+- Consumo de IA.
+- Custos de infraestrutura.
+- Campanhas processadas.
+- Taxas de falha.
+- Saúde das integrações.
+- Filas de processamento.
+- Alertas de segurança.
+- Gestão de cupons.
+- Gestão de categorias.
+- Configuração de planos.
+- Gestão de banners.
+- Moderação de ofertas.
+- Tickets de suporte.
+- Relatórios exportáveis.
+- Logs de auditoria.
+- Configurações globais.
+
+Permitir que o administrador ative, desative ou configure recursos por plano, com registro de alterações.
+
+Criar monitoramento para identificar picos de custo, tentativas de abuso, falhas recorrentes e consumo anormal de IA.
+
+==================================================
+15. SEGURANÇA, PRIVACIDADE E CONFORMIDADE
+==================================================
+
+Implementar:
+- Autenticação segura.
+- Recuperação de senha.
+- Verificação de e-mail.
+- Autenticação multifator para administradores.
+- Controle de acesso por função.
+- Isolamento de dados por usuário.
+- Proteção contra SQL injection, XSS e CSRF, conforme a arquitetura.
+- Rate limiting.
+- Proteção contra abuso.
+- Validação de arquivos enviados.
+- Criptografia em trânsito.
+- Proteção de credenciais e chaves de API.
+- Logs de auditoria.
+- Backups e estratégia de restauração.
+- Política de retenção de dados.
+- Consentimento e preferências de comunicação.
+- Exportação e exclusão de dados pessoais.
+- Política de privacidade e termos de uso.
+- Conformidade com a LGPD.
+- Divulgação transparente de links afiliados.
+- Respeito aos termos das plataformas conectadas.
+
+Não expor chaves de API no navegador. Usar variáveis de ambiente e serviços seguros para segredos.
+
+==================================================
+16. ARQUITETURA TÉCNICA
+==================================================
+
+Adotar uma arquitetura moderna, modular, segura e escalável.
+
+PREFERÊNCIA DE IMPLEMENTAÇÃO:
+- Front-end: Next.js com TypeScript.
+- Interface: Tailwind CSS e biblioteca de componentes acessíveis.
+- Back-end: rotas de servidor ou API modular.
+- Banco de dados: PostgreSQL.
+- Autenticação: solução segura compatível com o ambiente.
+- Arquivos: armazenamento de objetos compatível com S3.
+- Filas: Redis com processadores de tarefas ou alternativa gerenciada.
+- Agendamento: scheduler persistente.
+- IA: camada independente para conectar provedores de modelos de linguagem.
+- Geração de imagem: provedor de imagens configurável.
+- Pagamentos: adaptadores por provedor.
+- Observabilidade: logs estruturados, métricas e alertas.
+- Testes: unitários, integração e ponta a ponta.
+- Deploy: ambiente com HTTPS, domínio e variáveis seguras.
+
+Se a plataforma de desenvolvimento escolhida oferecer uma stack melhor integrada, adapte a arquitetura sem comprometer segurança, manutenção e funcionalidades.
+
+ESTRUTURA MODULAR:
+- authentication
+- users
+- subscriptions
+- billing
+- affiliate_networks
+- products
+- offers
+- affiliate_links
+- creatives
+- ai_agent
+- campaigns
+- publishing
+- integrations
+- storefronts
+- analytics
+- referrals
+- notifications
+- administration
+- audit
+- support
+
+Criar modelos de dados para usuários, organizações, permissões, produtos, ofertas, fontes, links, campanhas, publicações, canais, eventos de clique, conversões, comissões, assinaturas, transações, créditos de IA e logs.
+
+Definir chaves estrangeiras, índices, restrições de integridade e políticas de acesso.
+
+Separar tarefas demoradas do processamento das requisições do usuário.
+
+==================================================
+17. TELAS OBRIGATÓRIAS
+==================================================
+
+Desenvolver as seguintes telas funcionais:
+
+1. Página inicial comercial.
+2. Cadastro e login.
+3. Recuperação de senha.
+4. Onboarding de novos usuários.
+5. Dashboard.
+6. Central de ofertas.
+7. Cadastro e importação de produtos.
+8. Conversor de links.
+9. Gerador de anúncios.
+10. Estúdio de artes.
+11. Biblioteca de conteúdo.
+12. Agendador de campanhas.
+13. Central de canais e integrações.
+14. Assistente Promo IA.
+15. Vitrine pública.
+16. Analytics.
+17. Assinaturas e checkout.
+18. Programa de indicação.
+19. Configurações de perfil.
+20. Ajuda e suporte.
+21. Painel administrativo.
+22. Gestão financeira.
+23. Central de notificações.
+24. Página de políticas e conformidade.
+
+Cada tela deverá possuir estados de carregamento, vazio, sucesso, erro e falta de permissão, além de validações de formulário.
+
+==================================================
+18. EXPERIÊNCIA DO USUÁRIO
+==================================================
+
+Criar um onboarding simples:
+
+ETAPA 1: Criar a conta.
+ETAPA 2: Selecionar nichos de interesse.
+ETAPA 3: Informar os programas de afiliados utilizados.
+ETAPA 4: Personalizar a marca.
+ETAPA 5: Configurar os canais disponíveis.
+ETAPA 6: Criar a primeira oferta.
+ETAPA 7: Gerar anúncio e arte.
+ETAPA 8: Compartilhar ou agendar.
+ETAPA 9: Acompanhar resultados.
+
+O usuário deverá conseguir gerar sua primeira publicação sem precisar compreender configurações técnicas avançadas.
+
+Criar atalhos como:
+- Criar anúncio.
+- Encontrar ofertas.
+- Gerar arte.
+- Colar link.
+- Programar campanha.
+- Ver resultados.
+- Conversar com a IA.
+
+==================================================
+19. TESTES E CRITÉRIOS DE ACEITAÇÃO
+==================================================
+
+Antes de considerar o projeto concluído, verificar:
+
+- Cadastro e autenticação funcionais.
+- Isolamento dos dados de cada usuário.
+- Cadastro, edição e exclusão de ofertas.
+- Validação de links.
+- Preservação dos parâmetros de afiliado.
+- Geração de conteúdo por IA com dados verificáveis.
+- Geração e armazenamento de artes.
+- Agendamento persistente.
+- Tratamento de falhas nas publicações.
+- Rastreamento de cliques.
+- Importação de conversões quando suportada.
+- Atualização de assinaturas por webhooks.
+- Cálculo correto das comissões.
+- Funcionamento dos limites de cada plano.
+- Exportação de relatórios.
+- Funcionamento em dispositivos móveis.
+- Proteção de credenciais.
+- Recuperação de backups.
+- Logs e alertas.
+- Testes das integrações externas.
+
+Criar testes automatizados para os fluxos principais.
+
+Nunca utilizar vendas, usuários, comissões ou estatísticas fictícias como se fossem reais. Dados de demonstração deverão estar identificados como exemplos.
+
+==================================================
+20. PLANO DE EXECUÇÃO
+==================================================
+
+Construir o produto em fases, entregando funcionalidades utilizáveis em cada etapa.
+
+FASE 1 — FUNDAÇÃO
+- Design system.
+- Banco de dados.
+- Autenticação.
+- Perfis e permissões.
+- Dashboard.
+- Cadastro de ofertas.
+- Gerador de anúncios.
+- Links rastreáveis.
+- Primeira versão do Promo IA.
+
+FASE 2 — PRODUÇÃO DE CONTEÚDO
+- Estúdio de artes.
+- Biblioteca de modelos.
+- Vitrine pública.
+- Categorias.
+- Calendário editorial.
+- Exportação de imagens.
+
+FASE 3 — AUTOMAÇÃO
+- Integrações oficiais.
+- Filas de publicação.
+- Agendamento.
+- Monitoramento de erros.
+- Central de canais.
+
+FASE 4 — MONETIZAÇÃO
+- Planos.
+- Checkout.
+- Assinaturas.
+- Controle de créditos.
+- Programa de indicação.
+- Painel financeiro.
+
+FASE 5 — INTELIGÊNCIA AVANÇADA
+- Recomendações baseadas em histórico.
+- Detecção de ofertas desatualizadas.
+- Otimização de campanhas.
+- Relatórios avançados.
+- Testes de variações de anúncios.
+
+FASE 6 — ESCALA
+- Testes de carga.
+- Segurança.
+- Observabilidade.
+- Otimização de custos.
+- Backups.
+- Documentação técnica.
+- Preparação para produção.
+
+Não tente implementar todas as integrações complexas em um único bloco sem testar. Priorize a entrega incremental e a integração funcional de cada módulo.
+
+==================================================
+21. INSTRUÇÕES FINAIS PARA A IA DESENVOLVEDORA
+==================================================
+
+Comece analisando os recursos disponíveis no ambiente de desenvolvimento e proponha a arquitetura final.
+
+Em seguida:
+1. Crie a identidade visual original do DivulgaPromo.
+2. Implemente a estrutura de navegação.
+3. Configure o banco de dados e a autenticação.
+4. Desenvolva o primeiro fluxo completo: cadastrar produto, gerar anúncio, criar arte e compartilhar.
+5. Integre o Promo IA por meio de ferramentas reais.
+6. Implemente testes e tratamento de erros.
+7. Continue com as demais fases até concluir o escopo.
+8. Documente as variáveis de ambiente necessárias.
+9. Informe quais integrações exigem credenciais externas.
+10. Apresente o que está funcionando, o que depende de configuração e o que ainda não foi implementado.
+
+Não simule uma integração real com botões decorativos, respostas fixas ou dados inventados.
+
+Quando faltarem credenciais, implemente o adaptador, a tela de configuração, o modo de teste e mensagens claras de configuração pendente.
+
+Entregue um produto preparado para evolução comercial, com foco em facilidade de uso, segurança, automação responsável, baixo custo operacional e geração sustentável de receita.
+
+RESULTADO ESPERADO:
+
+UM DIVULGAPROMO FUNCIONAL, PROFISSIONAL, INTELIGENTE E ESCALÁVEL, QUE AJUDE AFILIADOS E CRIADORES A ENCONTRAR OFERTAS, PRODUZIR CONTEÚDO, AUTOMATIZAR DIVULGAÇÕES AUTORIZADAS, ANALISAR RESULTADOS E MONETIZAR SUAS ATIVIDADES, ENQUANTO O PRÓPRIO PROPRIETÁRIO DA PLATAFORMA GERA RECEITA RECORRENTE POR ASSINATURAS E OUTROS SERVIÇOS LEGÍTIMOS.

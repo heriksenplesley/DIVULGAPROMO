@@ -1,0 +1,6 @@
+{
+  "name": "DivulgaPromo - Inteligência e Automação de Ofertas",
+  "description": "Plataforma SaaS completa de automação de divulgação para afiliados e lojistas com agente Promo IA, conversor de links, estúdio de artes e vitrine pública.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
